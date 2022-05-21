@@ -408,7 +408,6 @@ class _WidgetTicker extends Ticker {
 
   @override
   dispose() {
-    animationController.dispose();
     _creator._removeTicker(this);
     super.dispose();
   }
